@@ -1,0 +1,39 @@
+{
+  "name": "hello-solid-start",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "check": "biome check --write --unsafe ./src"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.3",
+    "@solidjs/start": "^1.0.11",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "solid-js": "^1.9.4",
+    "vinxi": "^0.5.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@solidjs/testing-library": "^0.8.10",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/user-event": "^14.6.0",
+    "@vitest/ui": "^3.0.2",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^26.0.0",
+    "lefthook": "^1.10.10",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.9",
+    "vite-plugin-solid": "^2.11.0",
+    "vitest": "^3.0.2"
+  }
+}
