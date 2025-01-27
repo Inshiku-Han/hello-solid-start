@@ -10,9 +10,7 @@
 		"include": [
 			"src/**/*.ts",
 			"src/**/*.tsx",
-			"app.config.ts",
-			"tailwind.config.js",
-			"postcss.config.js"
+			"app.config.js"
 		],
 		"ignore": []
 	},

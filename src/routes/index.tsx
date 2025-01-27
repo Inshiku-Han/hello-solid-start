@@ -5,6 +5,7 @@ import { api } from '~/lib/api';
 
 export default function Home() {
 	const hello = createAsync(() => api.example.hello.query('world'));
+
 	return (
 		<main>
 			<Title>Hello World</Title>

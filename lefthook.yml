@@ -19,5 +19,5 @@
 pre-commit:
   parallel: true
   jobs:
-    - run: bunx biome --write --unsafe --no-errors-on-unmatched --files-ignore-unknown=true --colors=off ./src
+    - run: pnpx biome --write --unsafe --no-errors-on-unmatched --files-ignore-unknown=true --colors=off ./src
       glob: "*.{ts,tsx}"
