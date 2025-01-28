@@ -7,11 +7,6 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"include": [
-			"src/**/*.ts",
-			"src/**/*.tsx",
-			"app.config.js"
-		],
 		"ignore": []
 	},
 	"formatter": {
